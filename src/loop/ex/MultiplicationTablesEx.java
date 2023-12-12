@@ -1,6 +1,6 @@
 package loop.ex;
 
-public class MultiplicationTables {
+public class MultiplicationTablesEx {
 
     public static void main(String[] args) {
 
