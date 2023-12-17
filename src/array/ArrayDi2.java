@@ -10,8 +10,8 @@ public class ArrayDi2 {
                 {1,2,3}
         };
 
-        for(int row=0; row<=1; row++){
-            for(int column=0; column<=2; column++){
+        for(int row=0; row<= arr.length; row++){
+            for(int column=0; column<=arr[row].length; column++){
                 System.out.println("arr["+row+"]["+column+"] = "+arr[row][column]);
             }
         }
